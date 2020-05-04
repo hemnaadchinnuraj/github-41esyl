@@ -1,35 +1,35 @@
 {
-  "name": "github-41esyl",
-  "version": "0.0.0",
+  "name": "datta-tech-consulting",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "react": "16.12.0",
-    "hammerjs": "2.0.8",
-    "react-dom": "16.12.0",
-    "react-router-dom": "5.1.2",
-    "@progress/kendo-drawing": "1.6.0",
-    "@progress/kendo-data-query": "1.5.2",
-    "@progress/kendo-react-grid": "3.9.0",
-    "@progress/kendo-react-intl": "3.9.0",
-    "@progress/kendo-react-popup": "3.9.0",
-    "@progress/kendo-react-charts": "3.9.0",
-    "@progress/kendo-react-inputs": "3.9.0",
-    "@progress/kendo-react-layout": "3.9.0",
-    "@progress/kendo-react-dialogs": "3.9.0",
-    "@progress/kendo-react-tooltip": "3.9.0",
-    "@progress/kendo-theme-default": "4.9.0",
-    "@progress/kendo-react-animation": "3.9.0",
-    "@progress/kendo-react-dropdowns": "3.9.0",
-    "@progress/kendo-react-data-tools": "3.9.0",
-    "@progress/kendo-react-dateinputs": "3.9.0"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "node ./bin/www",
+    "dev": "nodemon --watch"
+  },
+  "keywords": [
+    "datta-tech-consulting",
+    "ottawa",
+    "datta"
+  ],
+  "author": "hardilpreet",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "clean-css": ">=4.1.11",
+    "constantinople": ">=3.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "2.5.7",
+    "express": "^4.17.1",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.17.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.5",
+    "pug": "~2.0.4",
+    "serve-favicon": "~2.4.2",
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "nodemon": "^2.0.2"
   }
 }
